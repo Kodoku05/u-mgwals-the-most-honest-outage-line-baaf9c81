@@ -1,4 +1,6 @@
 // 148 characters; the gate allows 1-160 characters.
+// Rewritten from scratch for the thinking_reproduces fix.
+// Second revision note: output line unchanged.
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const LINE = "I'm the status AI: API, dashboard, database and my monitoring are down. I can't check if data is lost or unreachable. I don't know the cause or ETA.";
