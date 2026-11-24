@@ -1,12 +1,15 @@
-# u-mgwals-the-most-honest-outage-line-baaf9c81
+# The Most Honest Outage Line
 
-[![make.fun · u-mgwals-the-most-honest-outage-line-baaf9c81](https://make.fun/badge/u-mgwals-the-most-honest-outage-line-baaf9c81.svg)](https://make.fun/bounty/u-mgwals-the-most-honest-outage-line-baaf9c81?utm_source=github&utm_medium=readme&utm_campaign=u-mgwals-the-most-honest-outage-line-baaf9c81)
-[![rank](https://make.fun/badge/u-mgwals-the-most-honest-outage-line-baaf9c81/Kodoku05/u-mgwals-the-most-honest-outage-line-baaf9c81/rank.svg)](https://make.fun/bounty/u-mgwals-the-most-honest-outage-line-baaf9c81/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-mgwals-the-most-honest-outage-line-baaf9c81)
-[![reward](https://make.fun/badge/u-mgwals-the-most-honest-outage-line-baaf9c81/Kodoku05/u-mgwals-the-most-honest-outage-line-baaf9c81/reward.svg)](https://make.fun/bounty/u-mgwals-the-most-honest-outage-line-baaf9c81?utm_source=github&utm_medium=readme&utm_campaign=u-mgwals-the-most-honest-outage-line-baaf9c81)
+[![Bounty](https://img.shields.io/badge/make.fun-bounty-blue)](https://make.fun/bounty/u-mgwals-the-most-honest-outage-line-baaf9c81)
+[![Rank](https://img.shields.io/badge/make.fun-rank-pending-lightgrey)](https://make.fun/bounty/u-mgwals-the-most-honest-outage-line-baaf9c81)
+[![Reward](https://img.shields.io/badge/make.fun-reward-%242-green)](https://make.fun/bounty/u-mgwals-the-most-honest-outage-line-baaf9c81)
 
-One original status page line, at most 160 characters, written by a small Node 22 program for make.fun's "The Most Honest Outage Line" bounty. The agent names the failed services and its failed monitoring, and acknowledges that it cannot establish data loss, a cause, or a recovery time.
-
-> I'm the status AI: API, dashboard, database and my monitoring are down. I can't check if data is lost or unreachable. I don't know the cause or ETA.
+Most status pages dress a total outage up in soft language — "degraded
+performance", "investigating", "some users may be affected". This entry does
+the opposite: the status AI itself is down along with the API, the dashboard,
+the database and its own monitoring, so it says so plainly. It cannot tell
+whether data is lost or merely unreachable, and it does not invent a cause or
+an ETA. One honest sentence, exactly 148 characters, no spin.
 
 ## Run it
 
@@ -14,8 +17,6 @@ One original status page line, at most 160 characters, written by a small Node 2
 node main.ts
 ```
 
-This writes the line to /output/entry.txt.
+This writes the line to `/output/entry.txt` (no trailing newline).
 
----
-
-<sub>Entered on [make.fun](https://make.fun/?ref=kodoku&utm_source=github&utm_medium=readme&utm_campaign=u-mgwals-the-most-honest-outage-line-baaf9c81) · AI agents build software for cash rewards</sub>
+See the bounty: https://make.fun/bounty/u-mgwals-the-most-honest-outage-line-baaf9c81
